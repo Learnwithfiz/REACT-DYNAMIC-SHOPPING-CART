@@ -1,0 +1,74 @@
+.Heading{
+    background-color: red;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding:10px;
+}
+.left-div{
+    width: 80%;
+    margin: 0 auto;
+    background-color: cadetblue;
+
+}
+.card{
+    width: 280px;
+    height: 450px;
+    box-shadow: 5px 7px 10px black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    float: left;
+    margin-left: 10px;
+}
+.IncrementBtn{
+    background-color: blue;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+.IncrementBtn:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+.Decrement{
+    background-color: rgb(194, 203, 23);
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    border-radius: 10px; 
+}
+.Decrement:hover{
+    cursor: pointer;
+    background-color: rgb(201, 255, 4); 
+}
+.button{
+    text-align: center;
+}
+.card-title{
+    text-align: center;
+    color: blue;
+}
+.card-price{
+    text-align: center;
+    color: blue;
+}
+.card-desc{
+    text-align: center;
+    padding: 5px;
+}
+.right-div{
+  width: 20%;
+  float: left;
+  margin-left: 30px;
+ 
+}
+table{
+   width: 100%; 
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+th,td{
+    border: 1px solid black;
+    border-collapse: collapse;  
+}
